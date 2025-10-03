@@ -139,13 +139,3 @@ dotnet run --project src/OrderManagement.API
 
 # Rodar com hot reload
 dotnet watch run --project src/OrderManagement.API
-```
-
-Docker (opcional)
-------------------
-Se quiser, posso adicionar um `docker-compose.yml` mínimo para rodar Postgres + a API em desenvolvimento. Isso facilita a avaliação manual e testes.
-
-Contribuição / Observações finais
----------------------------------
-Se for submeter o projeto, inclua no PR/entrega: instruções para rodar localmente, onde estão as migrations, e um comando para rodar os testes. Posso também adicionar um `appsettings.json.example` mais detalhado ou um `docker-compose.yml` se quiser que eu faça isso agora.
-
